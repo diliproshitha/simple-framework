@@ -1,4 +1,4 @@
-package com.dilipblog.simpleframework.part1.model;
+package com.dilipblog.simpleframework.part1.application.model;
 
 import java.util.UUID;
 

@@ -1,6 +1,6 @@
-package com.dilipblog.simpleframework.part1.dao;
+package com.dilipblog.simpleframework.part1.application.dao;
 
-import com.dilipblog.simpleframework.part1.model.Customer;
+import com.dilipblog.simpleframework.part1.application.model.Customer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
