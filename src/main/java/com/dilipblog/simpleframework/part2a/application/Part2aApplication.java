@@ -9,7 +9,7 @@ import com.dilipblog.simpleframework.part2a.application.service.CustomerService;
 import com.dilipblog.simpleframework.part2a.application.service.CustomerServiceImpl;
 import com.dilipblog.simpleframework.part2a.framework.ProxyHandler;
 
-public class Part2Application {
+public class Part2aApplication {
   public static void main(String[] args) {
     final CustomerService customerService = getProxyInstance();
     customerService.createCustomer(new Customer());
@@ -18,7 +18,7 @@ public class Part2Application {
   private static CustomerService getProxyInstance() {
     final CustomerDao customerDao = new CustomerDaoImpl();
     return (CustomerService) Proxy.newProxyInstance(
-        Part2Application.class.getClassLoader(),
+        Part2aApplication.class.getClassLoader(),
         new Class[]{CustomerService.class},
         new ProxyHandler(new CustomerServiceImpl(customerDao))
     );
