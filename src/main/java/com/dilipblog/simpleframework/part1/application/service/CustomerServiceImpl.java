@@ -36,9 +36,9 @@ public class CustomerServiceImpl implements CustomerService {
         try {
             beginTransaction();
 
-            logger.info("SERVICE: START - update customer");
+            logger.info("SERVICE: START - delete customer");
             customerDao.createCustomer(customer);
-            logger.info("SERVICE: END - update customer");
+            logger.info("SERVICE: END - delete customer");
 
             commitTransaction();
         } catch (Exception e) {
