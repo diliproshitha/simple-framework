@@ -1,4 +1,4 @@
-package com.dilipblog.simpleframework.part2a.framework;
+package com.dilipblog.simpleframework.part3.framework;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

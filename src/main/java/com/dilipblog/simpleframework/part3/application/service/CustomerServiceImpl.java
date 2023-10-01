@@ -1,10 +1,10 @@
-package com.dilipblog.simpleframework.part2a.application.service;
+package com.dilipblog.simpleframework.part3.application.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.dilipblog.simpleframework.part2a.application.dao.CustomerDao;
-import com.dilipblog.simpleframework.part2a.application.model.Customer;
+import com.dilipblog.simpleframework.part3.application.dao.CustomerDao;
+import com.dilipblog.simpleframework.part3.application.model.Customer;
 
 public class CustomerServiceImpl implements CustomerService {
 

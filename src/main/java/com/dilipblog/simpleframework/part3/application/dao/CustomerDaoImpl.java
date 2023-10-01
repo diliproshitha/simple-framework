@@ -1,9 +1,9 @@
-package com.dilipblog.simpleframework.part2a.application.dao;
+package com.dilipblog.simpleframework.part3.application.dao;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.dilipblog.simpleframework.part2a.application.model.Customer;
+import com.dilipblog.simpleframework.part3.application.model.Customer;
 
 public class CustomerDaoImpl implements CustomerDao {
 
