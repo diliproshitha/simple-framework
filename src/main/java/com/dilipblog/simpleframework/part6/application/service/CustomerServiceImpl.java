@@ -7,6 +7,7 @@ import com.dilipblog.simpleframework.part6.application.dao.CustomerDao;
 import com.dilipblog.simpleframework.part6.application.model.Customer;
 import com.dilipblog.simpleframework.part6.framework.annotation.Autowired;
 import com.dilipblog.simpleframework.part6.framework.annotation.Component;
+import com.dilipblog.simpleframework.part6.framework.annotation.Transactional;
 
 @Component
 public class CustomerServiceImpl implements CustomerService {
@@ -21,6 +22,7 @@ public class CustomerServiceImpl implements CustomerService {
     }
 
     @Override
+    @Transactional
     public void createCustomer(final Customer customer) {
         logger.info("SERVICE:   START - create customer");
         customerDao.createCustomer(customer);
@@ -28,6 +30,7 @@ public class CustomerServiceImpl implements CustomerService {
     }
 
     @Override
+    @Transactional
     public void deleteCustomer(final Customer customer) {
         logger.info("SERVICE: START - delete customer");
         customerDao.createCustomer(customer);

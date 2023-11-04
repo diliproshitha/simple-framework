@@ -1,6 +1,7 @@
 package com.dilipblog.simpleframework.part6.framework;
 
 import java.lang.reflect.Constructor;
+import java.lang.reflect.Proxy;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -71,7 +72,10 @@ public class ApplicationContext {
     try {
       final Constructor<T> constructor = getConstructor(implementation);
       final Object[] parameters = getConstructorParams(constructor);
-      return constructor.newInstance(parameters);
+      T bean = constructor.newInstance(parameters);
+      final Object proxy = Proxy.newProxyInstance(ApplicationContext.class.getClassLoader(),
+          new Class[]{clazz}, new ProxyHandler(bean));
+      return clazz.cast(proxy);
     } catch (Exception e) {
       throw new SimpleFrameworkException(e);
     }
