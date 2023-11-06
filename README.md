@@ -14,10 +14,10 @@ Links to the articles:
 
 [Demystifying Spring. Section 2: Proxies](https://medium.com/@diliproshitha/demystifying-spring-part-2-proxies-7592f59cc69e)
 
-[Demystifying Spring. Part 3: Let’s implement Dynamic Proxy](https://medium.com/@diliproshitha/demystifying-spring-part-3-lets-implement-dynamic-proxy-f3dd57e2c2fc)
+[Demystifying Spring. Section 3: Let’s implement Dynamic Proxy](https://medium.com/@diliproshitha/demystifying-spring-part-3-lets-implement-dynamic-proxy-f3dd57e2c2fc)
 
-[Demystifying Spring. Part 4: Let’s implement CGLib Proxy](https://medium.com/@diliproshitha/demystifying-spring-part-4-lets-implement-cglib-proxy-9e7fccb0b416)
+[Demystifying Spring. Section 4: Let’s implement CGLib Proxy](https://medium.com/@diliproshitha/demystifying-spring-part-4-lets-implement-cglib-proxy-9e7fccb0b416)
 
-[Demystifying Spring. Part 5: It’s time to inject dependencies!](https://medium.com/@diliproshitha/demystifying-spring-part-4-its-time-to-inject-dependencies-f95ecfb6b5f7)
+[Demystifying Spring. Section 5: It’s time to inject dependencies!](https://medium.com/@diliproshitha/demystifying-spring-part-4-its-time-to-inject-dependencies-f95ecfb6b5f7)
 
 [Demystifying Spring. Section 6: @Transactional is simpler than you thought!](https://medium.com/@diliproshitha/demystifying-spring-part-6-transactional-is-simpler-than-you-thought-b736f9759035)
